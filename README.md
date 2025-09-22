@@ -3,6 +3,8 @@
 ## Overview
 This project recreates the classic Snake game entirely in **digital hardware** using **Verilog** on the **DE1-SoC FPGA development board**. Designed and implemented by Jay Dadhiala and Seva Alipov independently as part of the **ECE241: Digital Systems** course at the University of Toronto, the game runs without any software intervention, showcasing full control logic, VGA rendering, and input handling in hardware.
 
+Project Started and Completed in 11/2024
+
 > ⚠️ _Note: Source code is shared for educational and demonstration purposes only. Please do not reuse without permission._
 
 ---
