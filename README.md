@@ -13,10 +13,10 @@ This project recreates the classic Snake game entirely in **digital hardware** u
   Snake navigates a pixel grid with directional control via onboard buttons.
 
 - **Item Spawning & Interaction**  
-  Randomized item generation and collision detection with the snake head.
+  Randomized item generation and collision detection with the snake head. **Purple** items increase snake speed, **red** items decrease snake speed, and **green** items return the snake speed to normal.
 
 - **Score Tracking & Game State Management**  
-  Internal counters track score, game over conditions, and reset logic.
+  Internal counters track score, game over conditions, and reset logic. Score and snake head position are displayed on the 7-segment displays of the DE1-SoC FPGA board.
 
 - **VGA Display Output**  
   Real-time rendering of the snake, items, and grid using custom VGA controller modules.
@@ -46,9 +46,14 @@ The game is composed of multiple Verilog modules, each responsible for a specifi
 
 ---
 
-## Demo Preview
+## Video Demo 
+Please ensure that **audio is turned on** so you may hear a verbal explination of the project as well.
 
-To be added
+
+
+https://github.com/user-attachments/assets/7ca75624-36ae-485f-9caa-f700f968ce3e
+
+
 
 ---
 
