@@ -66,7 +66,7 @@ module main(input CLOCK_50, input [3:0] KEY, output [9:0] LEDR, output [7:0] VGA
     rememberSnake memBoard(gameClock, headX, headY, snakeLength, hasSnake[0], hasSnake[1], hasSnake[2], hasSnake[3], hasSnake[4], hasSnake[5], hasSnake[6], hasSnake[7], hasSnake[8], hasSnake[9], hasSnake[10], hasSnake[11], hasSnake[12], hasSnake[13], hasSnake[14], tailRmX, tailRmY, snakeTouchesSelf);
     
     //manageDraw(input clk50, gameClk, doneHead, doneTail, doneObj, input [7:0] headXVGA, tailRmXVGA, objXVGA, input [6:0] headYVGA, tailRmYVGA, objYVGA, input[2:0] objColour, output [7:0] xVGA, output reg [6:0] yVGA, output reg [2:0] colour, output reg plot, ERROR);
-    //Yes I know that's a fuckton of ports, I couldn't think of a better way of doing it.
+    //Yes I know that's a lot of ports, I couldn't think of a better way of doing it.
     manageDraw draw(CLOCK_50, gameClock, doneHead, doneTail, doneObj, headXVGA, tailRmXVGA, objXVGA, headYVGA, tailRmYVGA, objYVGA, objclr, drawingHead, removingTail, drawingObj, x, y, colour, plot, LEDR[9]);
     
 endmodule
